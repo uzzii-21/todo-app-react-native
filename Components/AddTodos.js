@@ -15,7 +15,7 @@ export default function AddTodos({submitHandler}) {
             style={styles.input}
             placeholder="New Todos...."
             onChangeText={onChangeHandler} />
-            <Button onPress={() => submitHandler(text)} title='Add ToDos' color='coral'/>
+            <Button onPress={() => submitHandler(text)} title='Add Todos' color='coral'/>
         </View>
     )
 }
